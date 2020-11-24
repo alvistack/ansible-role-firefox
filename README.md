@@ -1,6 +1,6 @@
 # Ansible Role for Firefox
 
-[![Travis](https://img.shields.io/travis/com/alvistack/ansible-role-firefox.svg)](https://travis-ci.com/alvistack/ansible-role-firefox)
+[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-firefox/master)](https://gitlab.com/alvistack/ansible-role-firefox/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-firefox.svg)](https://github.com/alvistack/ansible-role-firefox/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-firefox.svg)](https://github.com/alvistack/ansible-role-firefox/blob/master/LICENSE)
 [![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.firefox-blue.svg)](https://galaxy.ansible.com/alvistack/firefox)
