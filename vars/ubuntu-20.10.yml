@@ -1,3 +1,5 @@
+---
+
 # (c) Wong Hoi Sing Edison <hswong3i@pantarei-design.com>
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,20 +14,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ansible>=2.10.0a9,<2.11.0
-ansible-lint
-ansible-runner
-ansible-runner-http
-argcomplete
-docker
-enrich>=1.2.3
-flake8
-jmespath
-molecule>=3.2.0a1,<3.3.0
-molecule-docker
-molecule-podman
-molecule-vagrant
-netaddr
-openshift
-python-vagrant
-yamllint
+_apt_key:
+  - url: "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x0AB215679C571D1C8325275B9BDB3D89CE49EC21"
+    id: "0AB215679C571D1C8325275B9BDB3D89CE49EC21"
+    state: "present"
+
+_apt_repository:
+  - repo: "deb http://ppa.launchpad.net/mozillateam/firefox-next/ubuntu groovy main"
+    state: "present"
+
+_apt:
+  - { state: "latest", name: "firefox" }
