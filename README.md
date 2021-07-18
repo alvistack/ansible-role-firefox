@@ -1,9 +1,13 @@
 # Ansible Role for Firefox
 
-[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-firefox/master)](https://gitlab.com/alvistack/ansible-role-firefox/-/pipelines)
-[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-firefox.svg)](https://github.com/alvistack/ansible-role-firefox/releases)
-[![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-firefox.svg)](https://github.com/alvistack/ansible-role-firefox/blob/master/LICENSE)
-[![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.firefox-blue.svg)](https://galaxy.ansible.com/alvistack/firefox)
+[![Gitlab pipeline
+status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-firefox/master)](https://gitlab.com/alvistack/ansible-role-firefox/-/pipelines)
+[![GitHub
+release](https://img.shields.io/github/release/alvistack/ansible-role-firefox.svg)](https://github.com/alvistack/ansible-role-firefox/releases)
+[![GitHub
+license](https://img.shields.io/github/license/alvistack/ansible-role-firefox.svg)](https://github.com/alvistack/ansible-role-firefox/blob/master/LICENSE)
+[![Ansible
+Role](https://img.shields.io/badge/galaxy-alvistack.firefox-blue.svg)](https://galaxy.ansible.com/alvistack/firefox)
 
 Ansible Role for Firefox Installation.
 
@@ -39,7 +43,8 @@ This role could simply deploy to `localhost` as below:
 ## License
 
   - Code released under [Apache License 2.0](LICENSE)
-  - Docs released under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
+  - Docs released under [CC
+    BY 4.0](http://creativecommons.org/licenses/by/4.0/)
 
 ## Author Information
 
