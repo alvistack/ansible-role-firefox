@@ -15,12 +15,14 @@
 # limitations under the License.
 
 _apt_key:
-  - url: "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x0AB215679C571D1C8325275B9BDB3D89CE49EC21"
+  - keyring: "/etc/apt/trusted.gpg.d/firefox-next.gpg"
+    url: "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x0AB215679C571D1C8325275B9BDB3D89CE49EC21"
     id: "0AB215679C571D1C8325275B9BDB3D89CE49EC21"
     state: "present"
 
 _apt_repository:
-  - repo: "deb http://ppa.launchpad.net/mozillateam/firefox-next/ubuntu hirsute main"
+  - filename: "firefox-next"
+    repo: "deb http://ppa.launchpad.net/mozillateam/firefox-next/ubuntu hirsute main"
     state: "present"
 
 _apt:
