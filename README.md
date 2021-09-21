@@ -1,5 +1,7 @@
 # Ansible Role for Firefox
 
+<img src="/alvistack.svg" width="75" alt="AlviStack">
+
 [![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-firefox/master)](https://gitlab.com/alvistack/ansible-role-firefox/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-firefox.svg)](https://github.com/alvistack/ansible-role-firefox/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-firefox.svg)](https://github.com/alvistack/ansible-role-firefox/blob/master/LICENSE)
