@@ -22,7 +22,7 @@ _apt_key:
 
 _apt_repository:
   - filename: "firefox-next"
-    repo: "deb http://ppa.launchpad.net/mozillateam/firefox-next/ubuntu hirsute main"
+    repo: "deb http://ppa.launchpad.net/mozillateam/firefox-next/ubuntu impish main"
     state: "present"
 
 _apt:
