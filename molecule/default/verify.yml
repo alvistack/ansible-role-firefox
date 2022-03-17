@@ -19,6 +19,6 @@
   become: true
   tasks:
     - name: firefox --version
-      command: firefox --version
+      ansible.builtin.command: firefox --version
       register: result
       changed_when: result is not succeeded
