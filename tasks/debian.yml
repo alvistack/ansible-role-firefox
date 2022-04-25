@@ -34,6 +34,16 @@
   register: result
   until: result is succeeded
 
+- name: copy templates
+  ansible.builtin.template:
+    dest: "{{ item.dest }}"
+    src: "{{ item.src | default('./templates' + item.dest + '.j2') }}"
+    owner: "{{ item.owner | default('root') }}"
+    group: "{{ item.group | default('root') }}"
+    mode: "{{ item.mode | default('0644') }}"
+  loop:
+    - { dest: "/etc/apt/preferences.d/99-firefox-next.pref" }
+
 - name: apt-get install
   ansible.builtin.apt:
     name: "{{ item.name }}"
