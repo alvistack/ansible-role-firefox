@@ -26,4 +26,4 @@ _apt_repository:
     state: "present"
 
 _apt:
-  - { state: "latest", name: "firefox", default_release: "o=LP-PPA-mozillateam-firefox-next" }
+  - { state: "latest", name: "firefox" }
