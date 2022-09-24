@@ -17,6 +17,7 @@
 galaxy_info:
   standalone: true
   role_name: firefox
+  namespace: alvistack
   author: "Wong Hoi Sing Edison <hswong3i@pantarei-design.com>"
   description: Ansible Role for Firefox Installation
   company: PantaRei Design
