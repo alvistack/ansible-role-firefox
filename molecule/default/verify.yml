@@ -19,8 +19,8 @@
   remote_user: root
   become: true
   tasks:
-    - name: firefox --version
+    - name: flatpak info org.mozilla.firefox
       ansible.builtin.command:
-        cmd: firefox --version
+        cmd: flatpak info org.mozilla.firefox
       register: result
       changed_when: result is not succeeded
