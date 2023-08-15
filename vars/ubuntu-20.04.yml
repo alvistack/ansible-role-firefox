@@ -13,17 +13,3 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-_apt_key:
-  - keyring: "/etc/apt/trusted.gpg.d/firefox-next.gpg"
-    url: "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x0AB215679C571D1C8325275B9BDB3D89CE49EC21"
-    id: "0AB215679C571D1C8325275B9BDB3D89CE49EC21"
-    state: "present"
-
-_apt_repository:
-  - filename: "firefox-next"
-    repo: "deb http://ppa.launchpad.net/mozillateam/firefox-next/ubuntu focal main"
-    state: "present"
-
-_apt:
-  - { state: "latest", name: "firefox" }
