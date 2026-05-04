@@ -1,13 +1,13 @@
-# Ansible Role for Firefox
+# Ansible Role for Firefox with Flatpak
 
 <a href="https://alvistack.com" title="AlviStack" target="_blank"><img src="/alvistack.svg" height="75" alt="AlviStack"></a>
 
-[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-firefox/master)](https://gitlab.com/alvistack/ansible-role-firefox/-/pipelines)
-[![GitHub tag](https://img.shields.io/github/tag/alvistack/ansible-role-firefox.svg)](https://github.com/alvistack/ansible-role-firefox/tags)
-[![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-firefox.svg)](https://github.com/alvistack/ansible-role-firefox/blob/master/LICENSE)
-[![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.firefox-blue.svg)](https://galaxy.ansible.com/alvistack/firefox)
+[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-flatpak_firefox/master)](https://gitlab.com/alvistack/ansible-role-flatpak_firefox/-/pipelines)
+[![GitHub tag](https://img.shields.io/github/tag/alvistack/ansible-role-flatpak_firefox.svg)](https://github.com/alvistack/ansible-role-flatpak_firefox/tags)
+[![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-flatpak_firefox.svg)](https://github.com/alvistack/ansible-role-flatpak_firefox/blob/master/LICENSE)
+[![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.flatpak_firefox-blue.svg)](https://galaxy.ansible.com/alvistack/flatpak_firefox)
 
-Ansible Role for Firefox Installation.
+Ansible Role for Firefox with Flatpak.
 
 ## Requirements
 
