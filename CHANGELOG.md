@@ -1,4 +1,4 @@
-# Ansible Role for Firefox
+# Ansible Role for Firefox with Flatpak
 
 ## 13.6.0 - TBC
 
